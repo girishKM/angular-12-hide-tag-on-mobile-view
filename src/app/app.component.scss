@@ -1,0 +1,9 @@
+.mobile-hide {
+  display: block; /* Change this to 'none' to hide the element */
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-hide {
+    display: none; /* Hide the element on mobile screens */
+  }
+}
